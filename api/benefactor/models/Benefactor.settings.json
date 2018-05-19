@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "benefactor",
+  "info": {
+    "name": "benefactor",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "email": {
+      "type": "email"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "role": {
+      "model": "role",
+      "via": "benefactors",
+      "plugin": "users-permissions"
+    }
+  }
+}

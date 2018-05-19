@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/benefactor",
+      "handler": "Benefactor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/benefactor/:_id",
+      "handler": "Benefactor.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/benefactor",
+      "handler": "Benefactor.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/benefactor/:_id",
+      "handler": "Benefactor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/benefactor/:_id",
+      "handler": "Benefactor.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

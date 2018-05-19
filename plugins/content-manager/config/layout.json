@@ -1,0 +1,37 @@
+{
+  "product": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": ""
+      },
+      "price": {
+        "appearance": ""
+      }
+    }
+  },
+  "benefactor": {
+    "attributes": {
+      "username": {
+        "appearance": ""
+      },
+      "password": {
+        "appearance": ""
+      },
+      "email": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      },
+      "firstName": {
+        "appearance": ""
+      },
+      "lastName": {
+        "appearance": ""
+      }
+    }
+  }
+}
